@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--gray-200);
+  -webkit-font-smoothing: antialiased; /* Suavização para fontes menores */
+  -moz-osx-font-smoothing: grayscale; /* Para compatibilidade com Firefox no macOS */
+  text-rendering: optimizeLegibility; /* Melhora a legibilidade, ajustando espaçamento de letras */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* Cores */
+
+  --red: #e3646e;
+  --purple: #bb72e9;
+  --blue: rgb(57, 150, 219);
+  --green: #82bc4f;
+  --yellow: #eabd5f;
+
+  --gray-100: #0d0e11;
+  --gray-200: #16181d;
+  --gray-300: #292c34;
+  --gray-400: #878ea1;
+  --gray-500: #c0c4ce;
+  --gray-600: #e2e4e9;
+
+  /* Tipografia */
+
+  --font-family-1: "Asap", serif;
+  --font-family-2: "Inconsolata", serif;
+  --font-family-3: "Maven Pro", serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  color: var(--gray-600);
+  text-align: center;
+
+  /* Title Lg */
+  font-family: var(--font-family-1);
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 120%; /* 67.2px */
+}
+
+h2 {
+  color: var(--gray-600);
+  text-align: center;
+
+  /* Title Md */
+  font-family: var(--font-family-1);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 120%; /* 28.8px */
+}
+
+h3 {
+  color: var(--Base-gray-500, #c0c4ce);
+  text-align: center;
+
+  /* Subtitle */
+  font-family: var(--font-family-2);
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 120%; /* 24px */
+
+  strong {
+    color: var(--red);
+
+    /* Subtitle */
+    font-family: var(--font-family-2);
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 120%;
+  }
+}
+
+.Project-Card {
+  display: flex;
+  width: 20.625rem;
+  height: 17.5rem;
+  padding: 0.75rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  flex-shrink: 0;
+  cursor: pointer;
+  border: 0.0938rem solid transparent;
+  border-radius: 0.75rem;
+  background: var(--gray-300);
+
+  img {
+    width: 19.125rem;
+    height: 9.75rem;
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    background: var(--gray-400);
+  }
+
+  .Text-Project-Card {
+    display: flex;
+    padding: 0.25rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    align-self: stretch;
+
+    label {
+      color: var(--gray-600);
+
+      /* Title Sm */
+      font-family: var(--font-family-1);
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 120%; /* 19.2px */
+    }
+
+    p {
+      color: var(--gray-500);
+
+      /* Text Sm */
+      font-family: var(--font-family-3);
+      font-size: 0.875rem;
+      font-weight: 400;
+      line-height: 140%; /* 19.6px */
+    }
+  }
+}
+
+.Project-Card:hover {
+  border-radius: 0.75rem;
+  border: 0.0938rem solid var(--gray-400);
+  background: var(--gray-300);
+}
+
+.SocialButton {
+  display: flex;
+  width: 25rem;
+  padding: 1.25rem;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  transition: 0.35s es;
+  border: 0.0938rem solid transparent;
+  background: var(--gray-300);
+  color: var(--gray-500);
+  font-family: var(--font-family-3);
+
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 140%;
+
+  span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+}
+
+.SocialButton:hover {
+  border: 0.0938rem solid var(--blue);
+}
+
+.SocialButton:hover span .blue-link path {
+  fill: var(--blue);
+}
