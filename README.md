@@ -36,7 +36,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Nesse projeto você vai desenvolver uma página simples de receita.
+O projeto é um site desktop de portfólio para desenvolvedores, com links para projetos e contato do profissional.
 
 - [Acesse o projeto finalizado, online](https://caiovinicius-full-stack.github.io/Desafio-pratico-Portfolio-Dev-Rocketseat/)
 
