@@ -38,7 +38,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O projeto é um site desktop de portfólio para desenvolvedores, com links para projetos e contato do profissional.
 
-- [Acesse o projeto finalizado, online](https://caiovinicius-full-stack.github.io/Desafio-pratico-Portfolio-Dev-Rocketseat/)
+- [Acesse o projeto finalizado, online](https://caiovinicius-full-stack.github.io/Desafio-pratico-Portfolio-Dev/)
 
 ## 🔖 Layout
 
