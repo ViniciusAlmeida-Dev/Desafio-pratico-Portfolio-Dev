@@ -2,8 +2,9 @@
 
 <p align="center">
 <h2>Fala dev 👋🏼<h2>
-Boas-vindas ao Desafio prático Portfólio, uma jornada de aprendizado e crescimento.
+Boas-vindas ao Desafio prático Portfólio, uma jornada de aprendizado e crescimento.<br/> <br/>
 O projeto é um site desktop de portfólio para desenvolvedores, com links para projetos e contato do profissional.
+<br/><br/>
 
 Esse é um dos desafios práticos da formação Fullstack, um dos conteúdos disponíveis para alunos da Rocketseat.
 
@@ -38,7 +39,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O projeto é um site desktop de portfólio para desenvolvedores, com links para projetos e contato do profissional.
 
-- [Acesse o projeto finalizado, online](https://caiovinicius-full-stack.github.io/Desafio-pratico-Portfolio-Dev/)
+- [Acesse o projeto finalizado, online](https://viniciusalmeida-dev.github.io/Desafio-pratico-Portfolio-Dev/)
 
 ## 🔖 Layout
 
